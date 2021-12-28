@@ -69,10 +69,9 @@ include_toc: true
 ## Epilogue
 
 *	One of the hackers, then 17-year-old teenager Graham Ivan Clark, was [sentenced to three years in prison and three years parole](https://www.tampabay.com/news/crime/2021/03/16/tampa-twitter-hacker-agrees-to-three-years-in-prison-in-plea-deal/), lower sentencing limits for a “youthful defender”.
-* On July 21, 2021, Joseph O’Connor (aka PlugWalkJoe) [was arrested in Spain in connection with the attack](https://www.nytimes.com/2021/07/21/technology/twitter-tiktok-snapchat-hacks.html).
-
+* On July 21, 2021, Joseph O’Connor (aka PlugWalkJoe) 22 [was arrested in Spain in connection with the attack](https://www.nytimes.com/2021/07/21/technology/twitter-tiktok-snapchat-hacks.html).
+* [Two other individuals were charged on July 31, 2020](https://www.wired.com/story/how-alleged-twitter-hackers-got-caught-bitcoin/): Mason Sheppard (aka “Chaewon”) 19, of Bognor Regis, United Kingdom; and Nima Fazeli (aka “Rolex”) 22, of Orlando, Florida.
   
-
 ## Learn more
 
 * [New York Times documentary](https://www.nytimes.com/video/NYT-Presents/100000007692848/the-teenager-who-hacked-twitter.html) about how the Twitter hack occurred (highly recommended).
