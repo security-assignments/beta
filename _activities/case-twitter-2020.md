@@ -1,5 +1,5 @@
 ---
-title: "Case -- Twitter 2020 Breach"
+title: "Case—Twitter 2020 Incident"
 description:
 include_toc: true
 ---
@@ -79,7 +79,7 @@ include_toc: true
 	- [NYTimes.com](https://www.nytimes.com/video/NYT-Presents/100000007692848/the-teenager-who-hacked-twitter.html)
 	- [Hulu](<https://www.hulu.com/series/the-new-york-times-presents-f22278d1-ef56-40e8-9227-af3a029ca6f4>)
 * ["Twitter Investigation Report," NY DFS](https://www.dfs.ny.gov/Twitter_Report)
-*	<https://www.nytimes.com/2020/07/15/technology/twitter-hack-bill-gates-elon-musk.html>
+*	[Early news story of the incident](https://www.nytimes.com/2020/07/15/technology/twitter-hack-bill-gates-elon-musk.html)
 *	Total amount of bitcoin transferred to this address: <https://www.blockchain.com/btc/address/bc1qxy2kgdygjrsqtzq2n0yrf2493p83kkfjhx0wlh>
 
 [1]: https://www.dfs.ny.gov/Twitter_Report "Twitter Report, accessed 10/27/2020"
