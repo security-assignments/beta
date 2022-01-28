@@ -241,8 +241,4 @@ Using the Kali VM for the steps below shows both that you got your Kali VM up an
 
 For example:
 
-{% if site.instructorcollab_domain == 'colorado.edu' %}
-{% include lab-image.html image='gcp-kali-chrome-remote-proof.png' %}
-{% elsif site.instructorcollab_domain == 'temple.edu' %}
 {% include lab-image.html image='gcp-kali-chrome-remote-proof-tv.png' %}
-{% endif %}
