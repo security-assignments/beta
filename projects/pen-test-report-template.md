@@ -40,6 +40,7 @@ _One-page executive summary that highlights the
 most important findings of your report._
 
 ---
+
 {: .instructions }
 > Must be no longer than one page. This should be written so that
 > non-technical executives can understand.
