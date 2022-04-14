@@ -96,7 +96,7 @@ In Kali, from a terminal, enter:
 
 16. Get the process ID by typing `getpid`.
 
-# Part 2: Create an memory dump from the Windows VM
+# Part 2: Create a memory dump from the Windows VM
 
 In this section, you'll use a digital forensics tool, FTK Imager, to make a copy or "image" of the Windows VM RAM.
 
