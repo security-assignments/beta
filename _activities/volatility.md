@@ -158,7 +158,7 @@ In this section, you'll use a digital forensics tool, FTK Imager, to make a copy
 
 	Can you locate the executable name and process ID?
 
-5. Now we will use Volatility to scan the process ID for Icecast to look for hidden more malicious process running as part of the Icecast proces:
+5. Now we will use Volatility to scan the process ID for Icecast to look for hidden malicious code injected into the Icecast proces:
 
         python3 vol.py -f ~/Desktop/memdump.mem windows.malfind --pid [the process ID you identfied] --dump
 
