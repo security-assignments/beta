@@ -112,11 +112,13 @@ In this section, you'll use a digital forensics tool, FTK Imager, to make a copy
 
 5. In Kali, browse to the shared "Evidence" folder by opening the "Home" folder on the desktop. In the URL bar of the file explorer window, type: 
 
-        smb://192.168.56.100/Evidence 
+        smb://192.168.56.100
         
     or 
         
-        smb://VAGRANTVM/Evidence
+        smb://VAGRANTVM
+	
+    Browse to the "Evidence" folder you created on the Windows desktop. E.g., at `C:\Users\LabUser\Desktop\Evidence`.
 
 6. Log in with user `labuser` and password `Passw0rd!`
 
