@@ -118,7 +118,9 @@ In this section, you'll use a digital forensics tool, FTK Imager, to make a copy
         
         smb://VAGRANTVM/Evidence
 
-	Drag the "memdump.mem" file created by FTK Imager to the Desktop.
+6. Log in with user `labuser` and password `Passw0rd!`
+
+7. Drag the `memdump.mem` file created by FTK Imager to the desktop of Kali.
 
 # Part 3: Use Volatility to examine the memory dump
 
