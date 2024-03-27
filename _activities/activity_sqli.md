@@ -11,7 +11,7 @@ slug: sqli
 ---
 
 
-For this activity, run virt-manager and start your Metasploitable VM. Browse to <http://192.168.56.102/dvwa> from a browser in the Kali VM and log in with username `admin` and password `password`.
+For this activity, run `virt-manager` and start your Metasploitable VM. Browse to <http://192.168.56.102/dvwa> from a browser in the Kali VM and log in with username `admin` and password `password`.
 
 **Important:** On the menu on the left, select "DVWA Security" and change the security level to "low."
 
@@ -23,17 +23,9 @@ If you can submit input that will cause the page to crash, then this suggests th
 
 Enter a single quote: `'` and press enter. This will show an error. It is possible that the page is running a SQL query that uses a single quote mark.
 
-{% include lab_question.html question='What kind of SQL server is DVWA using? This will determine what flavor of SQL syntax we must use in our injection attacks.' %}
+{% include lab_question.html question='What kind of SQL server is DVWA using? This will determine what flavor of SQL syntax must be used in injection attacks against it.' %}
 
-{% include lab_question.html question='Which of the following is not a valid comment in MySQL?
-<br>
-a. <code># comment</code>
-<br>
-b. <code>-- comment</code>
-<br>
-c. <code>// comment</code>
-<br>
-d. <code>/* comment */</code>' %}
+{% include lab_question.html question='Supported code comment styles differ between database engines. Investigate which comment styles are valid for the MySQL database engine.' %}
 
 Try the following SQLi queries.
 
@@ -74,7 +66,7 @@ A union clause allows attackers to execute additional `select` queries and add r
 
 {% include lab_question.html question='What kind of variable is `@@hostname`?' %}
 
-{% include lab_question.html question='What's the full path to the SQL server's SSL key?' %}
+{% include lab_question.html question='What is the full path to the SSL key for the SQL server?' %}
 
 ### Show port
 
@@ -82,7 +74,7 @@ A union clause allows attackers to execute additional `select` queries and add r
 
 ### Concatenate more host information fields
 
-We can concatenate 0x0a (line feed) with selected information to better display it.
+We can concatenate `0x0a` (the "line feed" character) with selected information to better display it.
 
 `' union select null, concat(@@version, 0x0a, @@hostname, 0x0a, @@datadir, 0x0a, @@version_compile_os) #`
 
@@ -116,7 +108,7 @@ Routines are SQL statements that can be invoked periodically or by some operatio
 
 `' and 1=0 union select null, routine_name from information_schema.routines #`
 
-{% include lab_question.html question='According to the DVWA team, who is the best college basketball team?' %}
+{% include lab_question.html question='According to the DVWA team, which is the best college basketball team?' %}
 
 ### Show all databases and tables
 
@@ -220,7 +212,7 @@ sqlmap -u "http://192.168.56.102/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#"
 
 You can press `Enter` whenever sqlmap prompts you for input.
 
-{% include lab_question.html question='What is Gordon Brown's plaintext password?' %}
+{% include lab_question.html question="What is user Gordon Brown's plaintext password?" %}
 
 ### Dump a specific table
 
@@ -252,7 +244,7 @@ This shows the following 7 databases:
 
 We can dump *all* of these using the `--dump-all` flag. **Warning**: this command will take a long time. There are a lot of tables across these databases on the MySQL server on Metasploitable2.
 
-{% include lab_question.html question='One of these databases contains data for a blog. What was kevin's first post on the blog?' %}
+{% include lab_question.html question="One of these databases contains data for a blog. What was user `kevin`'s first post on that blog?" %}
 
 ```shell
 sqlmap -u "http://192.168.56.102/dvwa/vulnerabilities/sqli/?id=1&Submit=Submit#" --cookie="$COOKIE" --dump-all
